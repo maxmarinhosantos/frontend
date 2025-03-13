@@ -1,0 +1,35 @@
+/*import React from 'react';
+import { View, Text, Image, StyleSheet } from 'react-native';
+
+const HeaderWithLogo = () => {
+  return (
+    <View style={styles.headerContainer}>
+      <Image
+        source={require('../assets/images/logo.png')}
+        style={styles.logo}
+        resizeMode="contain"
+      />
+      <Text style={styles.headerText}>Painel Inicial</Text>
+    </View>
+  );
+};
+
+export default HeaderWithLogo;
+
+const styles = StyleSheet.create({
+  headerContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  logo: {
+    width: 30,
+    height: 30,
+    marginRight: 10,
+  },
+  headerText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#333',
+  },
+});
+*/

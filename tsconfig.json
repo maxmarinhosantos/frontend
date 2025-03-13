@@ -1,0 +1,78 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "react-native",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@api/*": [
+        "api/*"
+      ],
+      "@config/*": [
+        "config/*"
+      ],
+      "@interfaces/*": [
+        "app/interfaces/*"
+      ],
+      "@screens/*": [
+        "screens/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@contexts/*": [
+        "context/*"
+      ]
+    },
+    "typeRoots": [
+      "./@types",
+      "./node_modules/@types"
+    ],
+    "types": [
+      "react",
+      "react-native",
+      "node"
+    ],
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "strictNullChecks": true,
+    "allowJs": true
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "types/**/*.d.ts",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "app/_layout.tsx",
+    "constants/styles copy",
+    "components/ThemedText_old"
+, "components/ThemedView_old", "components/ParallaxScrollView_old", "components/ThemeSwitcher_old", "components/HelloWave_old", "components/HeaderWithLogo_old", "components/HapticTab_old", "components/ExternalLink_old", "components/Collapsible_old", "components/BottomTabs_old"  ],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ],
+  "extends": "./node_modules/expo/tsconfig.base"
+}
