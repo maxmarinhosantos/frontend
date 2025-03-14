@@ -30,7 +30,11 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
-    "platforms": ["ios", "android", "web"], 
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "plugins": [
       "expo-router",
       [
@@ -43,7 +47,8 @@
         }
       ],
       "react-native-vision-camera",
-      "expo-secure-store"
+      "expo-secure-store",
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
